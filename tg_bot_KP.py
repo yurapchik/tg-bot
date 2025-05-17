@@ -4,7 +4,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from core import bot
 
-bot = telebot.TeleBot("6776934179:AAFAbjN0zWfdOLFgHRh9uTQHcKBPkHXWujY")
+bot = telebot.TeleBot("...")
 
 
 @bot.message_handler(commands=["start"])
